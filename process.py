@@ -21,7 +21,7 @@ from detectors.rt_detr.rt_detr_adapter import (
 from trackers.deep_ocsort_plus.deep_ocsort_plus import (
     DeepOCSortPlus,
 )
-from trackers.smiletrack.smiletrack import (
+from trackers.smiletrack.mc_SMILEtrack import (
     SMILEtrack,
 )
 from trackers.plot_override import (
