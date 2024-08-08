@@ -6,4 +6,4 @@ if __name__ == "__main__":
     for video in os.listdir("videos"):
         for detector in detectors.keys():
             for tracker in trackers.keys():
-                process(video, detector, tracker, True)
+                process("videos/" + video, detector, tracker, True)
